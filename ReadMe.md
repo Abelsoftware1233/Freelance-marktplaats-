@@ -51,9 +51,14 @@ abel123-platform/
 2.Backend Starten:
 
 cd backend
+
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+
+source venv/bin/activate 
+# Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python run.py
 
 3. Frontend starten
